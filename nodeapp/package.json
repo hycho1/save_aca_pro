@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "@huggingface/inference": "^2.8.0",
+    "@langchain/anthropic": "^0.2.11",
+    "@llama-node/llama-cpp": "^0.1.6",
+    "anthropic": "^0.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "llama-node": "^0.1.6",
+    "llamaapi": "^1.0.0",
+    "nodemon": "^3.1.4",
+    "react": "^18.3.1"
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "prod": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
